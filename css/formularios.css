@@ -1,0 +1,69 @@
+*{text-decoration:none;list-style:none;margin: 0 auto; padding: 0 auto;}
+
+
+nav{
+    margin:0 auto;
+    padding: 0 auto;
+    height: 8%;
+    width: 100%;
+    background: rgb(00,00,00);
+}
+#menu table {
+    padding: 0;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+table tr{
+    width: 100%; 
+    margin: 0 auto;
+    padding: 0 auto;
+}
+table tr td {
+    width: 10%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+table tr td a{
+    font-family: Chunkfive;
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+}
+table tr td a:hover{
+    font-family: Chunkfive;
+    font-weight: 900;
+    font-size: 30px;
+    color: rgb(246,94,1);
+    text-decoration: underline;
+}
+/*:visited muda a cor do link depois de clicado*/
+table tr td img{
+    width: 140px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+iframe{
+    width:100%;
+    height: 40%;
+    overflow-y:hidden;
+    overflow: scroll;
+    padding: 10px;
+}
+table{
+    width:40%;
+}
+section {
+    height: 100%;
+    width: 100%;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+section table{
+    padding: 0 auto;
+    margin: 0 auto;
+}

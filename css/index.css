@@ -1,0 +1,87 @@
+*{margin:auto;padding:0;text-decoration:none;list-style:none;height:auto;width:100%;}
+
+nav{
+    margin:0 auto;
+    height: 8%;
+    width: 100%;
+    background: rgb(00,00,00);
+    position: absolute;
+    top: 0px; 
+    left: 0px;  
+    z-index: 0;
+    opacity:0.8;
+}
+table {
+    padding: 0;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+table tr{
+    width: 100%; 
+    margin: 0 auto;
+    padding: 0 auto;
+}
+table tr td {
+    width: 10%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+table tr td a{
+    font-family: Chunkfive;
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+}
+table tr td a:hover{
+    font-family: Chunkfive;
+    font-weight: 900;
+    font-size: 30px;
+    color: rgb(246,94,1);
+    text-decoration: underline;
+}
+/*:visited muda a cor do link depois de clicado*/
+table tr td img{
+    width: 140px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+section {
+    height: 100%;
+    width: 100%;
+    padding: 0 auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+figure{
+    height: 100%;
+    width: 100%; 
+    overflow: hidden;
+}
+img{
+    height: 100%;
+    width: 100%; 
+}
+footer{
+    width:100%;
+    height: 7%;
+    background-color: black;
+    z-index: 0;
+    position: absolute;
+    left: 0px;
+    top: 93%;
+    opacity:0.8;
+}
+footer p{
+    text-align: center;
+    font-family: cursive;
+    font-size: 100%;
+    color: rgb(246,94,1);
+}
+
